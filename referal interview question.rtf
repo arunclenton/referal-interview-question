@@ -1,0 +1,248 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\i\f0\fs40\lang9 INTERVIEW QUESTIONS:-\par
+\b0\i0\fs22\par
+\b 1. What is semantic tag Eg?\b0\par
+\par
+\tab A semantic element clearly describes its meaning to both the browser and the developer.\par
+\par
+\tab Eg.\par
+\par
+\tab\tab article - The article element specifies independent, self-contained content.\par
+\par
+\tab\tab aside - The aside element defines some content aside from the content it is placed in (like a sidebar).\par
+\par
+\tab\tab detail - Defines additional details that the user can view or hide\par
+\par
+\tab\tab figcaption - The figcaption element can be placed as the first or as the last child of a <figure> element.\par
+\par
+\tab\tab figure - The figure tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.\par
+\par
+\tab\tab footer - The footer element defines a footer for a document or section.\par
+\par
+\tab\tab header - The header element represents a container for introductory content or a set of  navigational links.\par
+\par
+\tab\tab main - Specifies the main content of a document\par
+\par
+\tab\tab mark  - Defines marked/highlighted text\par
+\par
+\tab\tab nav - The nav element defines a set of navigation links.\par
+\par
+\tab\tab section - The section element defines a section in a document.\par
+\par
+\tab\tab summary - Defines a visible heading for a <details> element\par
+\par
+\tab\tab time - Defines a date/time\par
+\par
+\b 2. position Concept in Css?\par
+\b0\tab\par
+\tab The position property specifies the type of positioning method used for an element.\par
+\tab\par
+\tab There are five different position values:\par
+\par
+\tab\tab static - \tab\tab Static positioned elements are not affected by the top, bottom, left, and right properties.\par
+\par
+\tab\tab relative - \tab An element with position: relative; is positioned relative to its normal position.\par
+\par
+\tab\tab fixed -\tab\tab An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left \tab\tab\tab\tab\tab properties are used to \tab position the element.\par
+\par
+\tab\tab absolute -  \tab An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).\par
+\par
+\tab\tab sticky - \tab\tab A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place \tab\tab\tab\tab (like position:fixed).\par
+\par
+\b 3. Display inline and inline block difference.\par
+\b0\par
+\tab block - A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.\par
+\tab\par
+\tab inline - An inline element does not start on a new line.\par
+\par
+\b 4. What is the use of doctype HTML?\par
+\b0\par
+\tab All HTML documents must start with a <!DOCTYPE> declaration. The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.\par
+\par
+\b 5. Purpose of meta tag\b0 .\par
+\par
+\tab The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data.\par
+\tab\par
+\tab  <meta charset="UTF-8"> - Specifies the character encoding for the HTML document\par
+\par
+\tab  <meta name="viewport" content="width=device-width, initial-scale=1.0"> - Specifies a name for the metadata\par
+6\b . Without using css how can I separate span tag in block \b0 .\par
+\par
+\tab The span tag is just like a div, which is used to group similar content so it can all be styled together. But span is different in that it is an inline element, as opposed to div, which is a block element.\tab\par
+\tab using <br> tag to sepate the concept.\par
+\par
+\b 7. Difference between psuedo class and psuedo elements.\b0\par
+\par
+\tab A CSS pseudo-element is used to style specified parts of an element.\par
+\par
+\tab\tab Style the first letter, or line, of an element\par
+\tab\tab Insert content before, or after, the content of an element\par
+\par
+\tab\tab ::after\tab\tab p::after\tab\tab Insert something after the content of each <p> element\par
+\tab\tab ::before\tab\tab p::before\tab Insert something before the content of each <p> element\par
+\tab\tab ::first-letter\tab p::first-letter\tab Selects the first letter of each <p> element\par
+\tab\tab ::first-line\tab p::first-line\tab Selects the first line of each <p> element\par
+\tab\tab ::marker\tab ::marker\tab Selects the markers of list items\par
+\tab\tab ::selection\tab p::selection\tab Selects the portion of an element that is selected by a user\par
+\par
+\tab A pseudo-class is used to define a special state of an element.\par
+\par
+\tab Style an element when a user mouses over it\par
+\tab Style visited and unvisited links differently\par
+\tab Style an element when it gets focus\par
+\par
+\tab :active\tab a:active\tab Selects the active link\par
+\par
+\tab :checked\tab input:checked\tab Selects every checked <input> element\par
+\par
+\tab :disabled\tab input:disabled\tab Selects every disabled <input> element\par
+\par
+\tab :empty\tab\tab p:empty\tab Selects every <p> element that has no children\par
+\tab\par
+\tab :first-child\tab p:first-child\tab Selects every <p> elements that is the first child of its parent\par
+\tab\par
+\tab :focus\tab\tab input:focus\tab Selects the <input> element that has focus\par
+\par
+\tab :hover\tab\tab a:hover\tab\tab Selects links on mouse over\par
+\tab\par
+\tab\par
+\tab :last-child\tab\tab p:last-child\tab\tab Selects every <p> elements that is the last child of its parent\par
+\tab\par
+\tab :link\tab\tab\tab a:link\tab\tab\tab Selects all unvisited links\par
+\tab\par
+\tab :nth-child(n)\tab\tab p:nth-child(2)\tab\tab Selects every <p> element that is the second child of its parent\par
+\par
+\tab :nth-last-child(n)\tab p:nth-last-child(2)\tab Selects every <p> element that is the second child of its parent, counting from the last child\par
+\tab\par
+\tab :read-only\tab\tab input:read-only\tab\tab Selects <input> elements with a "readonly" attribute specified\par
+\par
+\tab :read-write\tab\tab input:read-write\tab Selects <input> elements with no "readonly" attribute\par
+\tab\par
+\tab :root\tab\tab\tab root\tab\tab\tab Selects the document's root element\par
+\par
+\tab :target\tab\tab\tab #news:target\tab\tab Selects the current active #news element (clicked on a URL containing that anchor name)\par
+\par
+\tab :valid\tab\tab\tab input:valid\tab\tab Selects all <input> elements with a valid value\par
+\par
+\tab :visited\tab\tab\tab a:visited\tab\tab Selects all visited links\par
+\par
+\b 8. Iteration properties.\b0\par
+\par
+\tab Loops allow programs to perform repetitive tasks, such as iterating through an array, while adhering to the DRY principle (Don't Repeat Yourself). They come in handy when you want to execute a function a number of times, using different sets of inputs each time.\par
+\par
+\b 9. Use of svg and canvas\b0\par
+\par
+\tab SVG gives better performance with smaller number of objects or larger surface. \par
+\tab Canvas gives better performance with smaller surface or larger number of objects.\par
+\par
+\b 10. Media querries\b0\par
+\par
+\tab Media queries in CSS3 extended the CSS2 media types idea: Instead of looking for a type of device, they look at the capability of the device.\par
+\par
+\tab Media queries can be used to check many things, such as:\par
+\par
+\tab width and height of the viewport\par
+\tab width and height of the device\par
+\tab orientation (is the tablet/phone in landscape or portrait mode?)\par
+\tab resolution\par
+\par
+\b 11. Orientation\b0\par
+\tab\par
+\tab The orientation feature is specified as a keyword value chosen from the list below.\par
+\tab\par
+\tab HTML\par
+\tab <div>Box 1</div>\par
+\tab <div>Box 2</div>\par
+\tab <div>Box 3</div>\par
+\par
+\tab CSS\par
+\tab body\par
+\tab\{\par
+\tab   \tab display: flex;\par
+\tab\}\par
+\par
+\tab div\par
+\tab  \{\par
+ \tab  \tab background: yellow;\par
+\tab\}\par
+\par
+\tab @media (orientation: landscape) \par
+\tab\{\par
+  \tab\tab body \par
+\tab\tab\{\par
+    \tab\tab\tab flex-direction: row;\par
+  \tab\tab\}\par
+\tab\}\par
+\par
+\tab @media (orientation: portrait) \par
+\tab\{\par
+  \tab\tab body \par
+\tab\tab\{\par
+    \tab\tab\tab flex-direction: column;\par
+  \tab\tab\}\par
+\tab\}\par
+\par
+\b 12. Set time out and set interval difference\par
+\b0\par
+\tab The setInterval() method calls a function at specified intervals (in milliseconds). The setInterval() method continues calling the function until clearInterval() is called, or the window is closed.\par
+\tab\par
+\tab 1 second = 1000 milliseconds.\par
+\par
+\tab <script>\par
+\tab\tab const element = document.getElementById("demo");\par
+\tab\tab setInterval(function() \{element.innerHTML += "Hello"\}, 1000);\par
+\tab </script>\par
+\par
+\tab The setTimeout() method calls a function after a number of milliseconds.\par
+\par
+\tab 1 second = 1000 milliseconds.\par
+\par
+\tab <script>\par
+\tab\tab const myTimeout = setTimeout(myGreeting, 5000);\par
+\tab\par
+\tab\tab function myGreeting() \par
+\tab\tab\{\par
+  \tab\tab\tab document.getElementById("demo").innerHTML = "Happy Birthday!"\par
+\tab\tab\}\par
+\par
+\tab\tab function myStopFunction() \par
+\tab\tab\{\par
+  \tab\tab\tab clearTimeout(myTimeout);\par
+\tab\tab\}\par
+\tab </script>\par
+\b\par
+13. box model\par
+\b0\par
+\tab In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. \par
+\tab It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:\par
+\par
+\tab Content - The content of the box, where text and images appear\par
+\tab Padding - Clears an area around the content. The padding is transparent\par
+\tab Border - A border that goes around the padding and content\par
+\tab Margin - Clears an area outside the border. The margin is transparent\par
+\par
+\b 14. Attribute\b0\par
+\tab\par
+\tab Html attributes\par
+\tab\tab\tab\par
+\tab Id -\tab The id attribute of an HTML tag can be used to uniquely identify any element within an HTML page.\par
+\tab Title - \tab The title attribute gives a suggested title for the element. \par
+\tab\tab <body>\par
+      \tab\tab\tab <h3 title = "Hello HTML!">Titled Heading Tag Example</h3>\par
+  \tab\tab  </body>\par
+\tab Class - \tab The class attribute is used to associate an element with a style sheet, and specifies the class of element.\par
+\tab Style - \tab The style attribute allows you to specify Cascading Style Sheet (CSS) rules within the element.\par
+\b 15 . Use of default (reset) css\b0\par
+\par
+\tab A CSS Reset style sheet is a list of rules that 'reset' all of the default browser styles. We reset the browser styles for two primary reasons: \par
+\tab Not all browsers apply the same default rules. They may be similar, but not exact.\par
+\tab\par
+\b 16. in span tag i give width: 50px; padding: 5px; margin: 5px;\par
+\b0\par
+now calculate width.\par
+\par
+\tab width does not work\par
+Footer\par
+}
+ 
